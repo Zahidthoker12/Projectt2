@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    padding: 0 100px;
+}
+
+header{
+    width: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+nav{
+   display: flex;
+   justify-content:left;
+   width: 50vw;
+   gap: 15px;
+   align-items: center;
+    
+}
+
+ul{
+    display: flex;
+    gap: 25px;
+    padding-top: 5px;
+
+}
+
+.logo{
+    margin-right: 35px;
+}
+
+
+
+li{
+    list-style: none;
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+
+
+main{
+    display: flex;
+    justify-content: center;
+    margin-top: 115px;
+    align-items: center;
+
+    /* align-content: space-around; */
+    
+    
+}
+
+
+.heroImg img{
+    width: 50vw;
+    
+   
+}
+
+h1{
+    line-height: 100px;
+    color: #3C2E60;
+    font-size: 100px;
+}
+
+h1 span{
+    color: #5955B3;
+}
+
+p{
+    font-size: 23px;
+    margin: 10px 0 40px 0;
+}
+
+
+.contact-btn button {
+    background-color: #5955B3;
+    padding: 14px 24px;
+    color:#DFDEF0;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    
+    
+}
+
+.service-btn button{
+    background-color: #5955B3;
+    padding: 14px 24px;
+    color:#DFDEF0;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+
+
+}
